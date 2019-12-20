@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "642089801169",
+    "firebase_url": "https://irescue-2ee6c.firebaseio.com",
+    "project_id": "irescue-2ee6c",
+    "storage_bucket": "irescue-2ee6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642089801169:android:e6c043e396a22d08",
+        "android_client_info": {
+          "package_name": "android.harmony.irescue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642089801169-okpfjam62ivrlq395h5tkpdbqm7c8erl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.harmony.irescue",
+            "certificate_hash": "92f076df357f1437c1a6e5654c6ac3efaa468281"
+          }
+        },
+        {
+          "client_id": "642089801169-8aokmnc4hql5ef224m028a76j0g9vuov.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "642089801169-8aokmnc4hql5ef224m028a76j0g9vuov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiFBUVLgybJPVTm6UixmYuV-ftBXwJkK0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "642089801169-8aokmnc4hql5ef224m028a76j0g9vuov.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

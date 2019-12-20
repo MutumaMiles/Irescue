@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home"/>
+        <item
+            android:id="@+id/police_stations"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Nearby Police Stations"/>
+        <item
+            android:id="@+id/next_of_kins"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="My Next Of Kins"/>
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_healing_black_24dp"
+            android:title="First Aid"/>
+        <item
+            android:id="@+id/log_out"
+            android:icon="@drawable/ic_lock_open_black_24dp"
+            android:title="Log Out"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share"/>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send"/>
+        </menu>
+    </item>
+
+</menu>

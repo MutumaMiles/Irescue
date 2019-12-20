@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">IRescue</string>
+    <string name="thumbnail_image_view_desc">Youtube Video thumbnail image view</string>
+    <string name="forgot_password"><u>Forgot Password ?</u></string>
+    <string name="your_first_name">First Name</string>
+    <string name="your_last_name">Last Name</string>
+    <string name="your_email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="your_password">Your password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="or_sign_up_now">OR SIGN UP NOW</string>
+    <string name="sign_in_irescue_to_account">Sign In IRescue To Account</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="next_of_kin_name">Next Of Kin name</string>
+    <string name="next_of_kin_phone_number">Next of Kin Phone Number</string>
+    <string name="relationship">Relationship</string>
+    <string name="add_a_comment">Add a comment</string>
+    <string name="post">Post</string>
+    <string name="error_text">Error getting your location. Please check your network settings.</string>
+    <string name="retry">Retry</string>
+
+    <string-array name="video_id_array">
+        <item>CqhpNxI8qYw</item>
+        <item>sasCrpgHDy8</item>
+        <item>iJeh3x09Ya8</item>
+        <item>B5zRaD7B504</item>
+        <item>9qWHzj8k-Uo</item>
+        <item>RjiK45wC924</item>
+        <item>RH3zaLO8H4E</item>
+        <item>o14pyzosjvk</item>
+        <item>5SQrpBQne7A</item>
+        <item>5WJ3r67ORxo</item>
+    </string-array>
+
+    <string-array name="video_ids">
+        <item>LIiuqzvX4vs</item>
+        <item>EaJmzB8YgS0</item>
+        <item>6Idb70EJXLM</item>
+    </string-array>
+    <string-array name="videos_names">
+        <item>Fainting First Aid</item>
+        <item>Burns First Aid</item>
+        <item>Water Breaks First Aid</item>
+    </string-array>
+    <string-array name="videos_duration">
+        <item>2:00</item>
+        <item>3:00</item>
+        <item>4:00</item>
+    </string-array>
+
+    <string-array name="video_title_array">
+        <item>Android Security Lock Demo</item>
+        <item>Android Sectioned RecyclerView Demo</item>
+        <item>Android Home Screen Widgets Demo</item>
+        <item>Android Floating Widget like Facebook Messenger Chat Head Demo</item>
+        <item>Android Google Maps Introduction Demo</item>
+        <item>Android Lollipop Activity Transitions Demo</item>
+        <item>Android Toolbar Animation Using Design Support Library Demo</item>
+        <item>Android Material Advance Tabs Demo</item>
+        <item>Android Drag and Drop Demo</item>
+        <item>Android Fingerprint Authentication Demo</item>
+    </string-array>
+
+    <string-array name="video_duration_array">
+        <item>02:48</item>
+        <item>00:44</item>
+        <item>01:01</item>
+        <item>00:55</item>
+        <item>01:03</item>
+        <item>00:25</item>
+        <item>00:34</item>
+        <item>00:45</item>
+        <item>00:52</item>
+        <item>00:28</item>
+    </string-array>
+</resources>

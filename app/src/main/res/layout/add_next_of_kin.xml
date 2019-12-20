@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:hint="@string/next_of_kin_name"
+        android:drawablePadding="10dp"
+        android:id="@+id/name"
+        android:inputType="textPersonName"
+        android:drawableStart="@drawable/ic_person_black_24dp"/>
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"
+        android:hint="@string/next_of_kin_phone_number"
+        android:drawablePadding="10dp"
+        android:id="@+id/phone_number"
+        android:inputType="phone"
+        android:drawableStart="@drawable/ic_phone_black_24dp"/>
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/ic_people_black_24dp"
+        android:hint="@string/relationship"
+        android:drawablePadding="10dp"
+        android:id="@+id/relationship"
+        android:drawableStart="@drawable/ic_people_black_24dp"/>
+
+</LinearLayout>

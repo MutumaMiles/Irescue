@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Create your IRescue Account"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/first_name"
+                style="@style/editTextStyle"
+                android:drawableLeft="@drawable/ic_account_box_black_24dp"
+                android:drawableStart="@drawable/ic_account_box_black_24dp"
+                android:hint="@string/your_first_name"
+                android:inputType="textPersonName"/>
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/last_name"
+                style="@style/editTextStyle"
+                android:drawableLeft="@drawable/ic_account_box_black_24dp"
+                android:drawableStart="@drawable/ic_account_box_black_24dp"
+                android:hint="@string/your_last_name"
+                android:inputType="textPersonName"/>
+        </LinearLayout>
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/email"
+                style="@style/editTextStyle"
+                android:drawableLeft="@drawable/ic_email_black_24dp"
+                android:drawableStart="@drawable/ic_email_black_24dp"
+                android:hint="@string/your_email"
+                android:inputType="textEmailAddress"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp">
+
+                <com.hbb20.CountryCodePicker
+                    android:id="@+id/ccp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:ccp_autoDetectCountry="true"/>
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/phone_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/ccp"
+                    android:layout_toRightOf="@id/ccp"
+                    android:hint="@string/phone_number"
+                    android:inputType="phone"/>
+            </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/password"
+                style="@style/editTextStyle"
+                android:drawableLeft="@drawable/ic_lock_black_24dp"
+                android:drawableStart="@drawable/ic_lock_black_24dp"
+                android:hint="@string/your_password"
+                android:inputType="textPassword"/>
+
+            <ImageView
+                android:id="@+id/toggle_password"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/password_toogle"/>
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/sign_up"
+            style="@style/buttonStyle"
+            android:text="@string/sign_up"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
